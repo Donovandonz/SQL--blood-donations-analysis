@@ -76,7 +76,7 @@ A comprehensive SQL analysis of blood donation data spanning **2020-2026**, exam
 |:--:|----------|----------|
 | 1 | Overall statistics? |-<a href="https://github.com/Donovandonz/SQL--blood-donations-analysis/blob/main/01_overall_statistic.sql">SQL-query</a> |
 | 2 | Summary by blood type? |-<a href="https://github.com/Donovandonz/SQL--blood-donations-analysis/blob/main/02_summary_by_blood-type.sql">SQL-query</a> |
-| 3 | Daily trends (NA, EU, JP, Other) differ by genre? |-<a href="https://github.com/Donovandonz/SQL--blood-donations-analysis/blob/main/03_daily_trends.sql">SQL-query</a> |
+| 3 | Daily trends? |-<a href="https://github.com/Donovandonz/SQL--blood-donations-analysis/blob/main/03_daily_trends.sql">SQL-query</a> |
 | 4 | Monthly trends with running total? |-<a href="https://github.com/Donovandonz/SQL--blood-donations-analysis/blob/main/04_monthly_trends.sql">SQL-query</a> |
 | 5 | Weekday analysis? |-<a href="https://github.com/Donovandonz/SQL--blood-donations-analysis/blob/main/05_weekday_analysis.sql">SQL-query</a> |
 | 6 | Year-over-Year comparison? |-<a href="https://github.com/Donovandonz/SQL--blood-donations-analysis/blob/main/06_yoy_comparison.sql">SQL-query</a> |
