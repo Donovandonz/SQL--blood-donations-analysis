@@ -194,4 +194,219 @@ A comprehensive SQL analysis of blood donation data spanning **2020-2026**, exam
 - Smooth summer = +50K potential
 - Replicate 2022 surge = +56K potential
 
+---
 
+## Geographic Analysis
+
+| State | Total Donations | Active Months | Avg Daily Donations | Active Days | Max Donation Day | Min Donation Day |
+|-------|-----------------|---------------|---------------------|-------------|------------------|------------------|
+| W.P. Kuala Lumpur | 1,186,475 | 74 | 133.31 | 2,225 | 750 | 0 |
+| Perak | 274,300 | 74 | 30.82 | 2,225 | 234 | 0 |
+| Johor | 264,353 | 74 | 29.70 | 2,225 | 243 | 0 |
+| Pulau Pinang | 241,913 | 74 | 27.18 | 2,225 | 208 | 0 |
+| Sarawak | 239,743 | 74 | 26.94 | 2,225 | 210 | 0 |
+| Sabah | 223,121 | 74 | 25.07 | 2,225 | 584 | 0 |
+| Selangor | 182,188 | 74 | 20.47 | 2,225 | 243 | 0 |
+| Melaka | 175,214 | 74 | 19.69 | 2,225 | 211 | 0 |
+| Pahang | 142,603 | 74 | 16.02 | 2,225 | 115 | 0 |
+| Kedah | 126,239 | 74 | 14.18 | 2,225 | 179 | 0 |
+| Terengganu | 113,440 | 74 | 12.75 | 2,225 | 117 | 0 |
+| Negeri Sembilan | 99,744 | 74 | 11.21 | 2,225 | 115 | 0 |
+| Kelantan | 96,299 | 74 | 10.82 | 2,225 | 285 | 0 |
+
+## 🏆 Key Insights
+- **Top Performer**: **W.P. Kuala Lumpur** dominates with **1,186,475** total donations (63% of total)
+- **Second Place**: **Perak** with **274,300** donations
+- **Third Place**: **Johor** with **264,353** donations
+- **Highest Single Day**: W.P. Kuala Lumpur with **750** donations
+- **Notable Peak**: Sabah recorded **584** donations on max day (2nd highest)
+- **Total Donations Across All States**: **3,462,132**
+
+## 📊 State Rankings (by Total Donations)
+1. 🥇 **W.P. Kuala Lumpur** - 1,186,475
+2. 🥈 **Perak** - 274,300
+3. 🥉 **Johor** - 264,353
+4. **Pulau Pinang** - 241,913
+5. **Sarawak** - 239,743
+6. **Sabah** - 223,121
+7. **Selangor** - 182,188
+8. **Melaka** - 175,214
+9. **Pahang** - 142,603
+10. **Kedah** - 126,239
+11. **Terengganu** - 113,440
+12. **Negeri Sembilan** - 99,744
+13. **Kelantan** - 96,299
+
+---
+
+## Blood type distribution by state
+
+ State | A | B | AB | O | Total |
+|-------|---|---|----|---|-------|
+| W.P. Kuala Lumpur | 297,224 | 321,991 | 61,963 | 505,297 | 1,186,475 |
+| Perak | 67,407 | 74,849 | 16,683 | 115,361 | 274,300 |
+| Johor | 64,251 | 71,137 | 13,692 | 115,273 | 264,353 |
+| Pulau Pinang | 59,977 | 65,274 | 14,924 | 101,738 | 241,913 |
+| Sarawak | 56,860 | 68,165 | 15,096 | 99,622 | 239,743 |
+| Sabah | 50,031 | 54,161 | 10,975 | 107,954 | 223,121 |
+| Selangor | 44,386 | 49,386 | 10,213 | 78,203 | 182,188 |
+| Melaka | 44,375 | 46,595 | 10,827 | 73,417 | 175,214 |
+| Pahang | 36,197 | 39,951 | 8,708 | 57,747 | 142,603 |
+| Kedah | 31,209 | 35,546 | 8,002 | 51,482 | 126,239 |
+| Terengganu | 27,741 | 31,531 | 8,038 | 46,130 | 113,440 |
+| Negeri Sembilan | 24,529 | 26,916 | 5,188 | 43,111 | 99,744 |
+| Kelantan | 25,647 | 25,350 | 6,578 | 38,724 | 96,299 |
+
+## 🏆 Key Insights
+
+### Blood Type Distribution (All States Combined)
+| Blood Type | Total Donations | Percentage |
+|------------|-----------------|------------|
+| **O** | 1,394,419 | 40.3% |
+| **B** | 911,852 | 26.3% |
+| **A** | 829,834 | 24.0% |
+| **AB** | 190,887 | 5.5% |
+
+### State Rankings by Blood Type
+- **🥇 W.P. Kuala Lumpur** dominates all categories:
+  - A: 297,224 (35.8% of total A)
+  - B: 321,991 (35.3% of total B)
+  - AB: 61,963 (32.5% of total AB)
+  - O: 505,297 (36.2% of total O)
+
+### Blood Type Compatibility Facts
+- **🩸 Universal Donors**: O- (can donate to all)
+- **🩸 Universal Recipients**: AB+ (can receive from all)
+- **🤝 Most Common Donor**: O Positive
+- **🔬 Rarest Type**: AB Negative (represented in AB category)
+
+---
+
+## Performance Metrics & KPIs
+
+| State | Mean Donations | Std Dev | Coefficient of Variation | Consistency Category |
+|-------|---------------|---------|--------------------------|---------------------|
+| W.P. Kuala Lumpur | 133.31 | 99.75 | 74.8 | INCONSISTENT |
+| Perak | 30.82 | 26.14 | 84.8 | INCONSISTENT |
+| Pulau Pinang | 27.18 | 24.44 | 89.9 | INCONSISTENT |
+| Terengganu | 12.75 | 12.14 | 95.2 | INCONSISTENT |
+| Johor | 29.70 | 28.41 | 95.6 | INCONSISTENT |
+| Kedah | 14.18 | 13.59 | 95.8 | INCONSISTENT |
+| Sarawak | 26.94 | 26.68 | 99.1 | INCONSISTENT |
+| Melaka | 19.69 | 20.10 | 102.1 | INCONSISTENT |
+| Pahang | 16.02 | 16.52 | 103.1 | INCONSISTENT |
+| Selangor | 20.47 | 22.45 | 109.7 | INCONSISTENT |
+| Negeri Sembilan | 11.21 | 12.77 | 113.9 | INCONSISTENT |
+| Sabah | 25.07 | 28.97 | 115.6 | INCONSISTENT |
+| Kelantan | 10.82 | 12.76 | 118.0 | INCONSISTENT |
+
+## 📈 Key Performance Indicators (KPIs)
+
+### Consistency Rankings (by Coefficient of Variation - Lower is More Consistent)
+1. 🥇 **W.P. Kuala Lumpur** - CV: 74.8% (Most Consistent)
+2. 🥈 **Perak** - CV: 84.8%
+3. 🥉 **Pulau Pinang** - CV: 89.9%
+4. **Terengganu** - CV: 95.2%
+5. **Johor** - CV: 95.6%
+6. **Kedah** - CV: 95.8%
+7. **Sarawak** - CV: 99.1%
+8. **Melaka** - CV: 102.1%
+9. **Pahang** - CV: 103.1%
+10. **Selangor** - CV: 109.7%
+11. **Negeri Sembilan** - CV: 113.9%
+12. **Sabah** - CV: 115.6%
+13. **Kelantan** - CV: 118.0% (Most Volatile)
+
+### 📊 Statistical Summary
+| Metric | Value |
+|--------|-------|
+| **Overall Mean (All States)** | 29.83 |
+| **Average CV Across States** | 99.8% |
+| **Most Consistent State** | W.P. Kuala Lumpur (74.8% CV) |
+| **Most Volatile State** | Kelantan (118.0% CV) |
+| **Lowest Mean** | Kelantan (10.82) |
+| **Highest Mean** | W.P. Kuala Lumpur (133.31) |
+| **Highest Std Dev** | W.P. Kuala Lumpur (99.75) |
+
+## 🔍 Key Insights
+
+### Volatility Patterns
+- **📉 All states classified as "INCONSISTENT"** (CV > 50%)
+- **🏆 W.P. Kuala Lumpur** shows the most consistent pattern despite highest absolute volatility
+- **⚠️ Kelantan** exhibits the most unpredictable donation patterns
+- **📊 East Malaysian states** (Sabah, Sarawak) show high volatility
+
+### Performance Categories
+- **High Performers** (Mean > 25): KL, Perak, Johor, Penang, Sarawak, Sabah
+- **Medium Performers** (Mean 15-25): Selangor, Melaka, Pahang
+- **Low Performers** (Mean < 15): Kedah, Terengganu, Negeri Sembilan, Kelantan
+
+### Risk Assessment
+- **Low Risk** (CV < 80%): W.P. Kuala Lumpur only
+- **Medium Risk** (CV 80-100%): Perak, Penang, Terengganu, Johor, Kedah, Sarawak
+- **High Risk** (CV > 100%): Melaka, Pahang, Selangor, Negeri Sembilan, Sabah, Kelantan
+
+---
+
+## Top 5 performing days for each blood type
+
+### 🅰️ Blood Type A - Top 5 Days
+| Rank | Date | Day of Week | State | Donations | Achievement |
+|------|------|-------------|-------|-----------|-------------|
+| 🥇 1 | 2026-02-01 | Sunday | W.P. Kuala Lumpur | 413 | BEST DAY |
+| 🥈 2 | 2020-08-09 | Sunday | W.P. Kuala Lumpur | 412 | SECOND BEST |
+| 🥉 3 | 2024-05-01 | Wednesday | W.P. Kuala Lumpur | 408 | THIRD BEST |
+| 4 | 2020-10-24 | Saturday | W.P. Kuala Lumpur | 398 | TOP 4 |
+| 5 | 2023-05-01 | Monday | W.P. Kuala Lumpur | 382 | TOP 5 |
+
+### 🆎 Blood Type AB - Top 5 Days
+| Rank | Date | Day of Week | State | Donations | Achievement |
+|------|------|-------------|-------|-----------|-------------|
+| 🥇 1 | 2026-02-01 | Sunday | W.P. Kuala Lumpur | 129 | BEST DAY |
+| 🥈 2 | 2020-02-08 | Saturday | W.P. Kuala Lumpur | 104 | SECOND BEST |
+| 🥉 3 | 2023-06-18 | Sunday | W.P. Kuala Lumpur | 97 | THIRD BEST |
+| 4 | 2023-05-04 | Thursday | W.P. Kuala Lumpur | 93 | TOP 4 |
+| 5 | 2025-06-15 | Sunday | W.P. Kuala Lumpur | 90 | TOP 5 |
+
+### 🅱️ Blood Type B - Top 5 Days
+| Rank | Date | Day of Week | State | Donations | Achievement |
+|------|------|-------------|-------|-----------|-------------|
+| 🥇 1 | 2026-02-01 | Sunday | W.P. Kuala Lumpur | 615 | BEST DAY |
+| 🥈 2 | 2025-02-11 | Tuesday | W.P. Kuala Lumpur | 519 | SECOND BEST |
+| 🥉 3 | 2020-02-08 | Saturday | W.P. Kuala Lumpur | 479 | THIRD BEST |
+| 4 | 2020-10-18 | Sunday | W.P. Kuala Lumpur | 474 | TOP 4 |
+| 4 | 2024-01-25 | Thursday | W.P. Kuala Lumpur | 474 | TOP 4 |
+
+### 🅾️ Blood Type O - Top 5 Days
+| Rank | Date | Day of Week | State | Donations | Achievement |
+|------|------|-------------|-------|-----------|-------------|
+| 🥇 1 | 2026-02-01 | Sunday | W.P. Kuala Lumpur | 750 | BEST DAY |
+| 🥈 2 | 2025-02-11 | Tuesday | W.P. Kuala Lumpur | 726 | SECOND BEST |
+| 🥉 3 | 2024-01-25 | Thursday | W.P. Kuala Lumpur | 688 | THIRD BEST |
+| 4 | 2024-05-01 | Wednesday | W.P. Kuala Lumpur | 647 | TOP 4 |
+| 5 | 2020-02-08 | Saturday | W.P. Kuala Lumpur | 632 | TOP 5 |
+
+## 🏆 Key Insights
+
+### All-Time Records
+| Blood Type | Record | Date | Donations |
+|------------|--------|------|-----------|
+| **🅾️ O** | Highest Single Day | 2026-02-01 | 750 |
+| **🅱️ B** | Second Highest | 2026-02-01 | 615 |
+| **🅰️ A** | Third Highest | 2026-02-01 | 413 |
+| **🆎 AB** | Fourth Highest | 2026-02-01 | 129 |
+
+### 📅 Historic Day: **2026-02-01 (Sunday)**
+This date appears as the #1 best day for **ALL FOUR** blood types! 🎯
+
+### Day of Week Patterns
+- **Sunday** dominates with 7 appearances in top rankings
+- **Tuesday** appears twice (B #2, O #2)
+- **Thursday** appears twice (B #4, O #3)
+- **Saturday** appears three times
+- **Monday** and **Wednesday** have one appearance each
+
+---
+
+## 👇Full SQL-code query analysis👇
+-<a href="https://github.com/Donovandonz/SQL--blood-donations-analysis/blob/main/Blood_donations_analysis_db.sql">Blood-donations-analysis</a>
